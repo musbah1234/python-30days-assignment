@@ -20,9 +20,9 @@ print("I am enjoying 30 days of python")
 
 print(type(10))                                 #int
 print(type(9.8))                                #float
-print(type(3.14))                               #float
 print(type(4 - 4j))                             #complex
 print(type(['musbah','python','Nigeria']))      #list
-print(type('Musbah'))                           #string
-print(type('Umar'))                             #string
-print(type('Nigeria'))                          #string
+print(type('Musbah'))                           #string                         
+print(type({'name':'Musbah', 'Age':'30'}))      # Dictionary
+print(type({9.8, 3.14, 2.7, 7.9}))              # Set
+print(type((9.8, 3.14, 2.7)))                   # Tuple
